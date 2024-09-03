@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="guestbook-entry">
+            <textarea id="message" placeholder="여기를 클릭해서 방명록을 입력하세요. (최대 300자)" maxlength="300"></textarea>
+            <button onclick="submitEntry()">등록하기</button>
+        </div>
+        <div class="guestbook-list">
+            <!-- Entries will be displayed here -->
+        </div>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>

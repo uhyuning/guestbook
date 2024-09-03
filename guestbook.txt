@@ -1,0 +1,11 @@
+guestbook/
+│
+├── app.py (or server.js)
+├── templates/
+│   └── index.html
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── scripts.js
+└── guestbook.db (optional, if using SQLite)
